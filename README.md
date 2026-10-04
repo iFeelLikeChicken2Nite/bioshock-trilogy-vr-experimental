@@ -1,4 +1,4 @@
-# bioshock-vr
+# bioshock-trilogy-vr-experimental
 
 This is a modified fork of the native VR mod for **BioShock Remastered**, **BioShock 2 Remastered** and **BioShock
 Infinite**, designed for v0.8.3
