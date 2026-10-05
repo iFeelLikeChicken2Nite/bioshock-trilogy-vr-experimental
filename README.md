@@ -1,7 +1,7 @@
 # bioshock-trilogy-vr-experimental
 
-This is a modified fork of the native VR mod for **BioShock Remastered**, **BioShock 2 Remastered** and **BioShock
-Infinite**, designed for v0.8.3
+This is a modified fork of the native VR mod for **BioShock Remastered** and **BioShock 2 Remastered** ~~and **BioShock
+Infinite**~~ (I haven't gotten around to Infinite just yet!), designed for v0.8.3
 
 You should generally refer to https://github.com/VR-Stereo-Hub/bioshock-trilogy-vr for main documentation. This is a temporary fork which contains fixes that I am hoping will be accepted as PRs. The fixes are as follows:
 
@@ -11,7 +11,13 @@ You should generally refer to https://github.com/VR-Stereo-Hub/bioshock-trilogy-
 
 * Drill contact fix (consistently deal drill damage if the enemy is touching the drill model while spinning)
 
+* Functional Drill Dash sending the player in the appropriate direction
+
+* Various bash/melee tweaks
+
 * Prevents little sisters from obstructing player vision in Bioshock 2 by making them invisible while on player shoulders
 
 
-Optionally, there is also a controller face button glyph replacement pack designed for Quest controllers on the default control config, but will likely work with other controllers as well.
+**Optionally**, there is also a controller face button glyph replacement pack designed for Quest controllers on the default control config, but will likely work with other controllers as well.
+
+![Quest glyphs](https://i.imgur.com/lN0Lrtp.png)
