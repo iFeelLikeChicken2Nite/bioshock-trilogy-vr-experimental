@@ -21,3 +21,44 @@ You should generally refer to https://github.com/VR-Stereo-Hub/bioshock-trilogy-
 **Optionally**, there is also a controller face button glyph replacement pack designed for Quest controllers on the default control config, but will likely work with other controllers as well.
 
 ![Quest glyphs](https://i.imgur.com/lN0Lrtp.png)
+
+
+For the main fixes:
+
+    Navigate to your Bioshock game folder
+    Back up bioshockvr.dll, then copy the files from the zip into the folder, overwriting as you go
+
+For the controller face button glyphs:
+
+    Extract, and then open Install-BioShock1.cmd or Install-BioShock2.cmd.
+
+The scripts default to:
+C:\Program Files (x86)\Steam\steamapps\common\BioShock Remastered
+C:\Program Files (x86)\Steam\steamapps\common\BioShock 2 Remastered
+
+For another Steam library, pass the game root as the script's first argument,
+or use this command from the extracted package folder:
+
+QuestUIPatcher.exe --install "D:\SteamLibrary\steamapps\common\BioShock Remastered"
+
+The root is the game folder containing ContentBaked, NOT Build\Final.
+If Windows denies write access, run the install script as administrator.
+Requires Windows .NET Framework 4.x; no Python, Java, or font installation.
+
+CHECK WITHOUT INSTALLING
+QuestUIPatcher.exe --check "C:\Program Files (x86)\Steam\steamapps\common\BioShock Remastered"
+QuestUIPatcher.exe --check "C:\Program Files (x86)\Steam\steamapps\common\BioShock 2 Remastered"
+
+UNDO
+Close the game, then run Uninstall-BioShock1.cmd or Uninstall-BioShock2.cmd.
+For a different library:
+QuestUIPatcher.exe --uninstall "D:\SteamLibrary\steamapps\common\BioShock Remastered"
+Existing preview features
+
+F10 > Carried Little Sister controls the carry badge, preview and placement.
+The default badge height is 7.5% of HUD height. Carry-only models are hidden;
+the native Sister's scale is returned during interactions for normal Show
+at completion. Full pickup/deploy/rescue/harvest headset acceptance is pending.
+F10 > Drill contact offers model-following contact, extra reach and an
+Original game contact mode. The default model-contact experiment adds 15%
+reach.
