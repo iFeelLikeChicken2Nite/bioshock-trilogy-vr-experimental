@@ -58,3 +58,8 @@ Close the game, then run Uninstall-BioShock1.cmd or Uninstall-BioShock2.cmd.
 
 For a different library:
 QuestUIPatcher.exe --uninstall "D:\SteamLibrary\steamapps\common\BioShock Remastered"
+
+**ROADMAP**
+_________________
+
+Some people seem to have a problem involving Bioshock 2 melting their computers - my next step is to investigate this
