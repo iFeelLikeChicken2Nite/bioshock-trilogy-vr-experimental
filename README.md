@@ -13,7 +13,13 @@ You should generally refer to https://github.com/VR-Stereo-Hub/bioshock-trilogy-
 
 * Functional Drill Dash sending the player in the appropriate direction
 
-* Various bash/melee tweaks
+* Places the flashlight in Bioshock 2 on the player's left hand, Half-Life Alyx style
+
+* Forces all auto aim off, which is important for the presented camera view respecting the player's intended viewing direction at all times (I promise you this is necessary for a good experience)
+
+* Removes fall damage in Bioshock 2 (optionally). Jack suffers if he falls off a ledge, but big daddies can take it! If this is enabled, you also will have the ability to crush or stun splicers by falling on them from above.
+
+* Various bash/melee tweaks, including the ability to swing your controller to whack enemies in Bioshock 2 with any weapon equipped (this wouldn't make sense for weaker dudes like Jack or Booker) 
 
 * Prevents little sisters from obstructing player vision in Bioshock 2 by making them invisible while on player shoulders
 
@@ -24,6 +30,7 @@ You should generally refer to https://github.com/VR-Stereo-Hub/bioshock-trilogy-
 
 ![Quest glyphs](https://i.imgur.com/lN0Lrtp.png)
 
+## I would also like to share a list of [recommended mods](https://github.com/iFeelLikeChicken2Nite/bioshock-trilogy-vr-experimental/blob/main/recommended-mods-and-more.md) for each game, which made my experience much better.
 
 For the main fixes:
 
