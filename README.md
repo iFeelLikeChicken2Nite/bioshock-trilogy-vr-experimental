@@ -17,7 +17,7 @@ You should generally refer to https://github.com/VR-Stereo-Hub/bioshock-trilogy-
 
 * Forces all auto aim off, which is important for the presented camera view respecting the player's intended viewing direction at all times (I promise you this is necessary for a good experience)
 
-* Removes fall damage in Bioshock 2 (optionally). Jack suffers if he falls off a ledge, but big daddies can take it! If this is enabled, you also will have the ability to crush or stun splicers by falling on them from above.
+* Removes fall damage in Bioshock 2 (optionally). Jack suffers if he falls off a ledge, but big daddies can take it! If this is enabled, you also will have the ability to crush or stun splicers by falling on them from above. It is on by default because it is a lot of fun.
 
 * Various bash/melee tweaks, including the ability to swing your controller to whack enemies in Bioshock 2 with any weapon equipped (this wouldn't make sense for weaker dudes like Jack or Booker) 
 
