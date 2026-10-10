@@ -4,7 +4,7 @@ Never installed a mod for Bioshock before? It's easy squeezy! Most of them are i
 
 ### Skipping startup intros
 
-For Bioshock 1 and 2, launch the game with -nointro parameter to skip the intros. For Bioshock Infinite, Download the replacement archive from [here](https://www.mediafire.com/download/8372k61bfwibek2) and then extract the archive to the installation folder and replace all files.
+For Bioshock 1 and 2, launch the game with -nointro parameter to skip the intros. For Bioshock Infinite, download the replacement archive from [here](https://www.mediafire.com/download/8372k61bfwibek2) and then extract the archive to the installation folder and replace all files.
 
 ## Bioshock 1
 
